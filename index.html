@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tick Tack Toe</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/aiScripts.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+  </head>
+  <body>
+    <div class="container warapper">
+      <div class="jumbotron banner">
+        <img src="img/banner.gif" class="headingImg" alt="">
+      </div>
+      <div class="gameBoardWrapper">
+        <div class="gameBoard">
+          <p class="rules hide"></p>
+          <button class="gameType playerVsPlayer active">Player Vs Player</button>
+          <button class="gameType playerVsSystem">Player Vs System</button>
+          <ul>
+            <li class="space0" title="0"></li>
+            <li class="space1" title="1"></li>
+            <li class="space2" title="2"></li>
+            <li class="space3" title="3"></li>
+            <li class="space4" title="4"></li>
+            <li class="space5" title="5"></li>
+            <li class="space6" title="6"></li>
+            <li class="space7" title="7"></li>
+            <li class="space8" title="8"></li>
+          </ul>
+          <button type="button" name="button" class="playerTurn player1Turn active">Player 1</button>
+          <button type="button" name="button" class="playerTurn player2Turn" >Player 2</button>
+        </div>
+        <div class="notification">
+          <div class="notificationWrapper">
+            <div class="welcome">
+              <h2>Welcome To TickTackToe<h2>
+              <p>Ready to Play!</p>
+              <button class="start getRule active">Lets Go!!!</button>
+            </div>
+            <div class="rules hide">
+              <h2>Rules<h2>
+              <p>The object of Tic Tac Toe is to get three in a row. You play on a three by three game board. The first player is known as X and the second is O. Players alternate placing Xs and Os on the game board until either oppent has three in a row or all nine squares are filled. X always goes first, and in the event that no one has three in a row, the stalemate is called a cat game.</p>
+              <button class=" getType active">Lets Start!!!</button>
+            </div>
+            <div class="welcome selectType hide">
+              <h2>Please Select Game Type<h2>
+              <button class="gameType playerVsPlayer active">Player Vs Player</button>
+              <button class="gameType playerVsSystem active">Player Vs System</button>
+            </div>
+            <div class="playerInfo hide">
+              <h2>Please Enter Name<h2>
+              <input type="text" name="firstPlayer" class="firstPlayer" placeholder="First Player Name">
+              <input type="text" name="secondPlayer" class="secondPlayer hide" placeholder="Second Player Name">
+              <button class="play active">Lets Play!!!</button>
+            </div>
+            <div class="winner hide">
+              <h2>Congratulations!!!<h2>
+              <h4>You Won The Game<h4>
+              <button class="refresh active">Ok</button>
+            </div>
+            <div class="draw hide">
+              <h2>Oops!!!<h2>
+              <h4>Cat Game<h4>
+              <button class="refresh active">Ok</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

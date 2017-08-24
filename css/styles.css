@@ -1,0 +1,114 @@
+ul {
+  height: 40rem;
+  border: 1px solid #241f1f;
+  padding: 0px;
+  margin: 10rem 0;
+}
+ul li {
+  float: left;
+  width: 33.3%;
+  height: 33.3%;
+  list-style: none;
+  border: 1px solid #241f1f;
+}
+button {
+  background: #ccc;
+}
+.active {
+    background: #fcf1ef !important;
+    color: #8c1211 !important;
+}
+.player1 {
+  background: url(../img/player1Icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.player2 {
+  background: url(../img/player2Icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gameType, .playerTurn, .start, .play, .getType, .refresh{
+  color: #fcf1ef;
+  width: 20rem;
+  height: 5rem;
+  background: #8c1211;
+  border-radius: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  border: 1px solid #340605;
+  font-weight: bold;
+}
+.banner{
+  background-image: url(../img/bannerbackground.jpg);
+  background-repeat: repeat-x;
+  margin: 0;
+}
+.headingImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.warapper{
+  border: 1px solid #8d1312;
+  padding: 0;
+  border-radius: 1rem;
+  background: #f69b1f;
+}
+.gameBoard {
+  padding: 6rem;
+  margin: 0 auto;
+  width: 55%;
+}
+.gameBoardWrapper{
+  position: relative;
+}
+.rules p{
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  color: #dedede;
+}
+.rules h2{
+  margin-top: 0 !important;
+}
+.hide {
+  display:hide;
+}
+.notification{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(93, 88, 88, 0.42)
+}
+.notificationWrapper{
+  position: absolute;
+  width: 60%;
+  height: 40%;
+  top: 30%;
+  left: 20%;
+  background: #8e1413;
+  color: #f7f7f7;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  padding: 3rem;
+  text-align: center;
+}
+.welcome p{
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+.playerInfo input{
+  width: 65%;
+  margin: 1rem;
+  border-radius: 8px;
+  border-color: #fca817;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #2f2f2f;
+}
+.play{
+  margin-top: 2rem;
+}
